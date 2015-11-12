@@ -1,7 +1,7 @@
-angular.module('keyValueParser.factory', [])
-.factory('keyValueParserFactory',keyValueParserFactory);
+angular.module('bgq.keyValueParser.factory', [])
+.factory('bgqKeyValueParserFactory',bgqKeyValueParserFactory);
 
-function keyValueParserFactory ($parse){
+function bgqKeyValueParserFactory ($parse){
   var factory = {};
   
   factory.parse = parse;
@@ -38,5 +38,5 @@ function keyValueParserFactory ($parse){
     return outputs;
   }
 }
-keyValueParserFactory.$inject = ["$parse"];
+bgqKeyValueParserFactory.$inject = ["$parse"];
 //# sourceMappingURL=keyValueParser.factory.js.map

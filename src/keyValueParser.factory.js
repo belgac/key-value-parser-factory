@@ -1,7 +1,7 @@
-angular.module('keyValueParser.factory', [])
-.factory('keyValueParserFactory',keyValueParserFactory);
+angular.module('bgq.keyValueParser.factory', [])
+.factory('bgqKeyValueParserFactory',bgqKeyValueParserFactory);
 
-function keyValueParserFactory ($parse){
+function bgqKeyValueParserFactory ($parse){
   var factory = {};
   
   factory.parse = parse;

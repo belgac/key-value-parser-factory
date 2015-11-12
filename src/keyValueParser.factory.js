@@ -9,8 +9,6 @@ function keyValueParserFactory ($parse){
   return factory;
   
   function parse (data,model) {
-    console.log(data);
-    console.log(model)
     
     var outputs = [];
     
@@ -36,7 +34,7 @@ function keyValueParserFactory ($parse){
       outputs.push(output);
       
     }
-    console.log(outputs)
+
     return outputs;
   }
 }

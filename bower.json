@@ -1,0 +1,18 @@
+{
+  "name": "key-value-parser-factory",
+  "description": "A simple parser to extract key-value pairs from objects with labels and types determined by a model",
+  "main": "dist/keyValueParser.factory.js",
+  "authors": [
+    "Hans Scheuren <hans.scheuren@bizliner.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/belgac/key-value-parser-factory",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
